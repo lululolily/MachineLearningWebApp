@@ -10,10 +10,10 @@ st.write("""
 Stress indicator using Machine Learning!
 """)
 
-image = Image.open('C:/Users/Emilia/PycharmProjects/Python_Test/venv/dep.png')
+image = Image.open('dep.png')
 st.image(image, caption='ML', use_column_width=True)
 
-df = pd.read_csv('C:/Users/Emilia/PycharmProjects/Python_Test/venv/SaYoPillow.csv')
+df = pd.read_csv('SaYoPillow.csv')
 
 st.subheader('Data Information: ')
 st.dataframe(df)
